@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 using TestNinja.Fundamentals;
 
@@ -23,6 +24,18 @@ namespace PrimeService.UnitTests
             var errorLogger = new ErrorLogger();
 
             Assert.That(() => errorLogger.Log(message), Throws.ArgumentNullException);
+        }
+        [Test]
+        public void Log_ValidArgument_FireErrorLoggedEvent()
+        {
+            var errorLogger = new ErrorLogger();
+
+            var id = Guid.Empty;
+            errorLogger.ErrorLogged += (SingleThreadedAttribute, args) => {id = args;}; // subscribe to event
+
+            errorLogger.Log("a");
+
+            Assert.That(id, Is.Not.EqualTo(Guid.Empty));
         }
     }
 }
