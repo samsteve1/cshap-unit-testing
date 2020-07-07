@@ -3134,11 +3134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
+      "projectUniqueName": "C:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
       "projectName": "PrimeService",
-      "projectPath": "c:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
+      "projectPath": "C:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "c:\\Apps\\csharp\\unit-testing\\PrimeService\\obj\\",
+      "outputPath": "C:\\Apps\\csharp\\unit-testing\\PrimeService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
