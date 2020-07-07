@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OarLl6hF5hXLBGKQqyBAzVM20dMpFFpoUs2aicmLta54z74r539Q4i3CAYrTLAu3G/EAZnMq9Cc+pVI+CR1vqA==",
+  "dgSpecHash": "/mikeGit7fd7bXnnHO8BKsg/RXBOpL+bYBe7B2Iq7BB+FRB3cnV+vIQWJub7xHrWUQmI6jMg3txX5FZ2s1H1uQ==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
+  "projectFilePath": "c:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\entityframework\\6.2.0-beta1\\entityframework.6.2.0-beta1.nupkg.sha512",
