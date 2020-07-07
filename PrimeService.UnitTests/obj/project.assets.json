@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\PrimeService.UnitTests.csproj",
+      "projectUniqueName": "c:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\PrimeService.UnitTests.csproj",
       "projectName": "PrimeService.UnitTests",
-      "projectPath": "C:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\PrimeService.UnitTests.csproj",
+      "projectPath": "c:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\PrimeService.UnitTests.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\obj\\",
+      "outputPath": "c:\\Apps\\csharp\\unit-testing\\PrimeService.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4547,8 +4547,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj": {
-              "projectPath": "C:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj"
+            "c:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj": {
+              "projectPath": "c:\\Apps\\csharp\\unit-testing\\PrimeService\\PrimeService.csproj"
             }
           }
         }
