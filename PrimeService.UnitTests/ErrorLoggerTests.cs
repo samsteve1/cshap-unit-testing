@@ -14,5 +14,15 @@ namespace PrimeService.UnitTests
 
             Assert.That(errorLogger.LastError, Is.EqualTo("a"));
         }
+        [Test]
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase(" ")]
+        public void Log_InvalidArgument_ThrowArgumentNullException(string message)
+        {
+            var errorLogger = new ErrorLogger();
+
+            Assert.That(() => errorLogger.Log(message), Throws.ArgumentNullException);
+        }
     }
 }
