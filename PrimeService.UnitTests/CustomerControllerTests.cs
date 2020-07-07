@@ -13,7 +13,7 @@ namespace PrimeService.UnitTests
             var result = customerController.GetCustomer(0);
 
             Assert.That(result, Is.TypeOf<NotFound>()); // strictly type of NotFound
-            Assert.That(result, Is.InstanceOf<NotFound>()); // Type of NotFound or its derivative
+            // Assert.That(result, Is.InstanceOf<NotFound>()); // Type of NotFound or its derivative
         }
     }
 }
