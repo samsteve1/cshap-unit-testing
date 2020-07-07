@@ -22,6 +22,7 @@ namespace PrimeService.UnitTests
         public void Push_ArgIsValid_PushArgToList()
         {
             _stack.Push("a");
+
             Assert.That(_stack.Count, Is.EqualTo(1));
         }
         [Test]
@@ -35,6 +36,7 @@ namespace PrimeService.UnitTests
         {
             _stack.Push("a");
             _stack.Push("b");
+
             _stack.Pop();
 
             Assert.That(_stack.Count, Is.EqualTo(1));
@@ -65,6 +67,17 @@ namespace PrimeService.UnitTests
             var result = _stack.Peek();
 
             Assert.That(result, Is.EqualTo("c"));
+        }
+         [Test]
+        public void Peek_ListIsNotEmpty_PeekMethodDoesNotRemoveItemFromList()
+        {
+            _stack.Push("a");
+            _stack.Push("b");
+            _stack.Push("c");
+
+            var result = _stack.Peek();
+
+            Assert.That(_stack.Count, Is.EqualTo(3));
         }
     }
 }
