@@ -1,21 +1,19 @@
 ﻿using System.Data.Entity;
+using PrimeService.mocking;
 
 namespace TestNinja.Mocking
 {
     public class EmployeeController
     {
-        private EmployeeContext _db;
-
-        public EmployeeController()
+       private IEmployeeStorage _storage;
+        public EmployeeController(IEmployeeStorage storage)
         {
-            _db = new EmployeeContext();
+            this._storage = storage;
         }
 
         public ActionResult DeleteEmployee(int id)
         {
-            var employee = _db.Employees.Find(id);
-            _db.Employees.Remove(employee);
-            _db.SaveChanges();
+            _storage.DeleteEmployee(id);
             return RedirectToAction("Employees");
         }
 
